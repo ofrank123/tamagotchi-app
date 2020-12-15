@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    width: 100%;    
+    background: lightpink;
+    float: center;
+}
+
+p {
+  border: dashed 2px;
+  background: skyblue;
+  color: aliceblue;
+  float: center;
+  text-align:center;
+}
+    
+div {
+ margin: 10px  20px; /* 10px top and bottom, 20px right and left */
+ height: 100%; 
+ width: 100%; 
+ background: lightpink; 
+ text-align:center;
+ float: center;
+}
+
+body {
+ /* 10px top, 20px right, 30px bottom, 40px left in clockwise order */ 
+ text-align:center; 
+ float: center;
+}
+
+
+Image {
+  display: block;
+  width: 100%;
+  float: center;
+}
+
+.quote {
+ background-color: skyblue;
+ color: aliceblue;
+ text-align:center;
+ float: center;
+}
+
+
+Image.cat {
+  height: 100%;
+  width: 100%; 
+  position: center;
+  float: center;
+}
+
+
+Image.roseDog {
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+  float: center;
+}
+
